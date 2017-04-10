@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BasketContller.cs" />
+     <Compile Include="Assets\Scripts\GameDirector.cs" />
      <Compile Include="Assets\Scripts\ItemController.cs" />
      <Compile Include="Assets\Scripts\ItemGenerator.cs" />
  <Reference Include="Facebook.Unity.Settings">
