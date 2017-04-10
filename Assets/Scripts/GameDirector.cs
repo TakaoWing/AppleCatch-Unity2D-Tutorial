@@ -9,6 +9,7 @@ public class GameDirector : MonoBehaviour {
 	GameObject pointText;
 	float time = 30.0f;
 	int point = 0;
+	GameObject generator;
 
 	public void GetApple(){
 		this.point += 100;
@@ -20,6 +21,7 @@ public class GameDirector : MonoBehaviour {
 	void Start () {
 		this.timerText = GameObject.Find ("Time");
 		this.pointText = GameObject.Find ("Point");
+		this.generator = GameObject.Find ("ItemGenerator");
 	}
 
 	void Update () {
